@@ -1,0 +1,18 @@
+{
+    "Windows":
+    {
+        "count": 4,
+        "edition": [
+            "Windows 10 Home",
+            "Windows 10 Home Single Language",
+            "Windows 10 Pro",
+            "Windows 10 Pro VL-MAK"
+        ],
+        "value": [
+            "YTMG3-N6DKC-DKB77-7M9GH-8HVX7",
+            "BT79Q-G7N6G-PGBYW-4YWX6-6F4BT",
+            "VK7JG-NPHTM-C97JM-9MPGT-3V66T",
+            "QJNXR-7D97Q-K7WH4-RYWQ8-6MT6Y"
+        ]
+    }
+}
