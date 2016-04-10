@@ -28,7 +28,8 @@ if has("unix") || has("gui_running")
     colorscheme Tomorrow-Night-Eighties
 endif
 
-map <C-T> :echo strftime("%a, %d %b %Y %H:%M:%S %Z")<CR>
+map <C-T> :echo strftime("%H:%M:%S %Z")<CR>
+map <C-D> :echo strftime("%a, %d %b %Y %H:%M:%S %Z")<CR>
 
 map <C-P> :set nopaste<CR>
 map <C-P>p :set paste<CR>
