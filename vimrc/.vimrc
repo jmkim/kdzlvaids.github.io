@@ -15,7 +15,7 @@ set shiftwidth=4
 syntax on
 colorscheme Tomorrow-Night-Eighties
 
-map <C-T> :echo 'Current time is ' . strftime('%c')<CR>
+map <C-T> :echo strftime("%a, %d %b %Y %H:%M:%S %Z")<CR>
 
 if has("gui_running")
     set guifont=D2Coding:h11,Consolas:h11
