@@ -13,9 +13,6 @@ set shiftwidth=4
 
 " Syntax and color scheme
 syntax on
-colorscheme Tomorrow-Night-Eighties
-
-map <C-T> :echo 'Current time is ' . strftime('%c')<CR>
 
 if has("gui_running")
     set guifont=D2Coding:h11,Consolas:h11
@@ -26,6 +23,12 @@ else
     " Terminal colour
     set t_Co=256
 endif
+
+if has("unix") || has("gui_running")
+    colorscheme Tomorrow-Night-Eighties
+endif
+
+map <C-T> :echo strftime("%a, %d %b %Y %H:%M:%S %Z")<CR>
 
 map <C-P> :set nopaste<CR>
 map <C-P>p :set paste<CR>
